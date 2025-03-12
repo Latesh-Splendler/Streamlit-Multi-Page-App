@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
 about_page = st.Page(
   page="views/about_me.py",
   title="About Me",
