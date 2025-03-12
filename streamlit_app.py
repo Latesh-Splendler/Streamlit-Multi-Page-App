@@ -24,6 +24,6 @@ pg = st.navigation(
   }
 )
 
-st.logo("logo.webp")
+st.logo("logo2.png")
 st.sidebar.text("Made with 🧡 by George" ) 
 pg.run()
