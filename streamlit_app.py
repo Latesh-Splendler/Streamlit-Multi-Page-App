@@ -23,4 +23,7 @@ pg = st.navigation(
     "Projects": [project_1_page, project_2_page],
   }
 )
+
+st.logo("logo.webp")
+st.sidebar.text("Made with 🧡 by George" ) 
 pg.run()
