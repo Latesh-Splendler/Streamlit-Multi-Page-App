@@ -1,6 +1,8 @@
 import streamlit as st
 
-
+@st.experimental_dialog("Contact Me")
+def show_contact_form():
+    st.text_input("First Name")
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 
@@ -12,6 +14,8 @@ with col2:
     st.write(
         "I am a recent computer science graduate with a strong foundation in programming, data structures, and algorithms. I have completed courses in C++ and Java. I am highly interested in trading technology, having developed a machine learning model to predict synthetic trades, and I am currently working on a trading bot with real-time data integration through the Deriv API. I am skilled in Python, especially for applications in machine learning and Streamlit, and I am setting up a robust backend with MySQL. My projects reflect a keen focus on financial tech, practical problem-solving, and a drive to innovate in automated trading."
     )
+    if st.button(" ✌Contact Me"):
+        show_contact_form()
     
 
 
