@@ -23,16 +23,7 @@ st.markdown("[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for
 st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Latesh-Splendler)")
 
 
-file_path = "./pages/assets/resume.pdf"
 
-with open(file_path, "rb") as file:
-    
-    st.download_button(
-        label="Download My Resume",
-        data=file,
-        file_name="Your_Resume.pdf",  
-        mime="application/pdf"  
-    )
 
 
 st.write("\n")
