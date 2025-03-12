@@ -54,25 +54,6 @@ st.write(
 
 """
 )
-st.title("Contact Form")
-
-st.write("Please fill out the form below to get in touch!")
-
-
-name = st.text_input("Full Name")
-email = st.text_input("Email Address")
-subject = st.selectbox("Subject", ["General Inquiry", "Support", "Feedback", "Other"])
-message = st.text_area("Message")
-
-# Submit button
-if st.button("Submit"):
-    if name and email and message:
-        st.success(f"Thank you for reaching out, {name}! We will get back to you shortly.")
-        st.write("Your message details:")
-        st.write(f"**Subject**: {subject}")
-        st.write(f"**Message**: {message}")
-    else:
-        st.error("Please fill in all the required fields.")
 
 
 
