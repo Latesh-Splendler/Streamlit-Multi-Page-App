@@ -4,7 +4,7 @@ import streamlit as st
 import requests  # pip install requests
 
 
-WEBHOOK_URL = ["https://hooks.zapier.com/hooks/catch/20664447/2lt8g69/"]
+WEBHOOK_URL = "https://hooks.zapier.com/hooks/catch/20664447/2lt8g69/"
 
 
 def is_valid_email(email):
